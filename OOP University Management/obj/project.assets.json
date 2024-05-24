@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OOP_University_Management\\OOP University Management\\OOP University Management.csproj",
+      "projectUniqueName": "F:\\PencilBox\\OOP_University_Management\\OOP University Management\\OOP University Management.csproj",
       "projectName": "OOP University Management",
-      "projectPath": "F:\\OOP_University_Management\\OOP University Management\\OOP University Management.csproj",
+      "projectPath": "F:\\PencilBox\\OOP_University_Management\\OOP University Management\\OOP University Management.csproj",
       "packagesPath": "C:\\Users\\atikh\\.nuget\\packages\\",
-      "outputPath": "F:\\OOP_University_Management\\OOP University Management\\obj\\",
+      "outputPath": "F:\\PencilBox\\OOP_University_Management\\OOP University Management\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\atikh\\AppData\\Roaming\\NuGet\\NuGet.Config",

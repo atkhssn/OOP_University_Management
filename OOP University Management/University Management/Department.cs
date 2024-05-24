@@ -14,32 +14,34 @@ namespace OOP_University_Management.University_Management
 
         private List<Student> students = new List<Student>();
 
-        public bool AddStudent(Student student, out string message)
+        public string AddStudent(Student student)
         {
+            string message = "";
             if (students.Exists(s => s.RegNo == student.RegNo))
             {
                 message = "A student with the same RegNo already exists.";
-                return false;
+                return message;
             }
             students.Add(student);
             message = "Student added successfully.";
-            return true;
+            return message;
         }
 
-        public bool UpdateStudent(int regNo, string newName, out string message)
+        public string UpdateStudent(int regNo, string newName)
         {
+            string message = "";
             Student student = students.Find(s => s.RegNo == regNo);
             if (student != null)
             {
                 student.Name = newName;
                 message = "Student updated successfully.";
-                return true;
+                return message;
             }
             message = "Student not found.";
-            return false;
+            return message;
         }
 
-        public bool RemoveStudent(int regNo, out string message)
+        public bool RemoveStudent(int regNo, string message)
         {
             Student student = students.Find(s => s.RegNo == regNo);
             if (student != null)
